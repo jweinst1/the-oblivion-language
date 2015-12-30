@@ -55,4 +55,22 @@ In traditional languages, objects and reference types normally have specific met
 
 Oblivion seeks to break this barrier, by allowing oper units to be utilized as methods to invoke on specific units. An Oper, has one, abstract purpose, which is customized to individual uses for different units and objects.
 
-For example, the `< + >` oper, has an abstract purpose of adding or concatenation, between a unit and the value associated with it. 
+For example, the `< + >` oper, has an abstract purpose of adding or concatenation, between a unit and the value associated with it. For `I-Units`, the specific purpose is to add two numbers together. For a string unit, the purpose is to concatenate them into one string. Here is an example:
+
+```
+I-Unit 
+(6) -> < +3 > -> #
+~~~ 9
+
+S-Unit
+("Flowers") -> < +3 > -> #
+~~~ "Flowers3"
+```
+
+####Arithmetic Opers
+
+Arithmetic Opers have basic, abstract purposes, and can be used in a variety of ways. They all operate in a single step, and thus can be compounded to create much larger processes.
+
+#####Plus Oper
+
+The
