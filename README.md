@@ -9,3 +9,5 @@ In Oblivion, the proper expression to match a simple assignment is `{x} -> (6) -
 
 For more information, see the [manual.](SUMMARY.md)
 
+For the Java Implementation of Oblivion, click [here](https://github.com/jweinst1/Oblivion-Java)
+
