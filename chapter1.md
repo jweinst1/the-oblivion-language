@@ -18,4 +18,27 @@ An Integer Unit, also called a `I-Unit`, contains a single integer value:
 ```
 #### String Units
 
-A String Unit, also called an `S-Unit`, contains a series of string characters. These units work differently than other languages. There is no empty string, all strings must have at least one character in them.
+A String Unit, also called an `S-Unit`, contains a series of string characters. These units work differently than other languages. There is no empty string unit, all strings must have at least one character in them. Additionally, S-Unit's are also mutable, and thus act as an ordered collection. This will be covered in further chapters. Here are some examples:
+
+```
+(sir)
+(yes)
+(The Oblivion Language)
+```
+#### Double Units
+
+A Double Unit, is a unit that contains a single floating point number, such as `1.27`.
+
+```
+(9.8875)
+(334.67)
+```
+
+#### Bool Units
+
+A Bool Unit, also called a `B-Unit`, is a value unit that contains either the value `true` or `false`.
+
+
+##Oper Units
+
+Oper units are units that do not contain any referable values, but instead contain an operation. This means
