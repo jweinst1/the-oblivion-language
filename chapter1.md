@@ -46,4 +46,6 @@ Oper units are units that do not contain any referable values, but instead conta
 
 ####Implementation and availability
 
-In traditional languages, 
+In traditional languages, objects and reference types normally have specific methods defined for them. If an object does not carry a particular method, that method cannot be used on an instance of the object. Methods, are a flexible, user-written portion of the language, while an operator is static and unchangeable.
+
+Oblivion seeks to break this barrier 
