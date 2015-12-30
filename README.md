@@ -7,5 +7,5 @@ Oblivion is structured around the concept units. Instead of having defined, buil
 
 In Oblivion, the proper expression to match a simple assignment is `{x} -> (6) -> @`. Here, we perform the assignment via a stream of units. The `{x}` expression is called a name unit, which is similar to the concept of a parameter in other languages. The `->` expression is the apply unit. This takes the previous unit and applies it to the next unit. The `@` symbol represents the bindings unit. It is similar to a local and global bindings scheme in languages like Python.
 
-For more information, see the manual.
+For more information, see the [manual.](SUMMARY.md)
 
