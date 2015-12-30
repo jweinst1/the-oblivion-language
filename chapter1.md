@@ -39,6 +39,11 @@ A Double Unit, is a unit that contains a single floating point number, such as `
 A Bool Unit, also called a `B-Unit`, is a value unit that contains either the value `true` or `false`.
 
 
+
 ##Oper Units
 
-Oper units are units that do not contain any referable values, but instead contain an operation. This means
+Oper units are units that do not contain any referable values, but instead contain an operation. This means that, they carry a potential value that is applied to another unit. They also use arrow brackets, `<>` instead of the parenthesis `()`. For example, if the unit `( 3 )` refers to the integer value of 3, the oper unit `< +3 >` refers to the operation of adding 3. As a result, an oper unit must have a type of `V-Unit` being applied toward it.
+
+####Implementation and availability
+
+In traditional languages, 
