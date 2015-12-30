@@ -5,5 +5,7 @@ Oblivion is a modern programming language that takes an unorthodox approach to s
 
 Oblivion is structured around the concept units. Instead of having defined, built in statements, the language composes all statements from series of operations. For example, `x = 1`, from Python, binds the variable `x` to the integer 1. Or in Java, one would write `int x = 1`.
 
-In Oblivion, the proper expression to match a simple assignment is `{ x } -> (6) -> @`. Here, we perform the assignment via a stream of units. The `{ x }` expression is called a name unit, which is similar to the concept of a parameter in other languages. The `->` expression is the apply unit. This takes the previous unit and applies it to the next unit. The 
+In Oblivion, the proper expression to match a simple assignment is `{x} -> (6) -> @`. Here, we perform the assignment via a stream of units. The `{x}` expression is called a name unit, which is similar to the concept of a parameter in other languages. The `->` expression is the apply unit. This takes the previous unit and applies it to the next unit. The `@` symbol represents the bindings unit. It is similar to a local and global bindings scheme in languages like Python.
+
+For more information, see the manual.
 
