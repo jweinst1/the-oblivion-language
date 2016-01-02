@@ -49,7 +49,7 @@ Container Units are units which hold one or more values, very similar to the con
 
 #### Set Containers
 
-Set containers, or sets for short, carry order-less, non-quantitative collections of elements. 
+Set containers, or sets for short, carry order-less, non-quantitative collections of elements. They do not have any fixed size.
 
 
 
