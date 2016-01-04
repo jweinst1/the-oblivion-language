@@ -38,3 +38,7 @@ A Bool Unit, also called a `B-Unit`, is a value unit that contains either the va
 (true)
 (false)
 ```
+
+#### Pair Units
+
+A Pair Unit, is a unit that has a key to value association, where the left value is associated with a key and the right is it's unlocked value.
