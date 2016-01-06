@@ -10,5 +10,5 @@
 * [Chapter Two: Connectors](chapter_two_connectors.md)
 * [Chapter Three: Processes](chapter_three_processes.md)
 * [Chapter Four: Paths](chapter_four_paths.md)
-* Chapter Five: Cycles
+* [Chapter Five: Cycles](chapter_five_cycles.md)
 
