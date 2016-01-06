@@ -9,5 +9,4 @@
    * [Name Units](name_units.md)
 * [Chapter Three: Processes](chapter_three_processes.md)
 * [Chapter Three: Paths](chapter_three_paths.md)
-* [Chapter Four: Cycles](chapter_four_cycles.md)
 
