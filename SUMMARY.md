@@ -7,5 +7,5 @@
        * [Arithmetic Opers](arithmetic_opers.md)
    * [Container Units](container_units.md)
    * [Name Units](name_units.md)
-* Chapter Two: Connectors
+* [Chapter Two: Connectors](chapter_two_connectors.md)
 
