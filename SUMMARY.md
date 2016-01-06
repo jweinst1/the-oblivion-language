@@ -5,6 +5,7 @@
    * [Value Units](value_units.md)
    * [Oper Units](oper_units.md)
        * [Arithmetic Opers](arithmetic_opers.md)
+       * Object Opers
    * [Container Units](container_units.md)
    * [Name Units](name_units.md)
 * [Chapter Two: Connectors](chapter_two_connectors.md)
