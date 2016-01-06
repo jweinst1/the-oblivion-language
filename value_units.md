@@ -39,6 +39,6 @@ A Bool Unit, also called a `B-Unit`, is a value unit that contains either the va
 (false)
 ```
 
-#### Pair Units
+#### Item Units
 
-A Pair Unit, is a unit that has a key to value association, where the left value is associated with a key and the right is it's unlocked value.
+An Item Unit, is a unit that has a key to value association, where the left value is associated with a key and the right is it's unlocked value. They are distinguished by the format `(K, V)`, where K is a key and V is a value. Item units have access to a special set of processes, which will be discussed in later chapters.
