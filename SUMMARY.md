@@ -4,6 +4,7 @@
 * [Chapter One: Units](chapter1.md)
    * [Value Units](value_units.md)
    * [Oper Units](oper_units.md)
+       * Arithmetic Opers
    * [Container Units](container_units.md)
    * [Name Units](name_units.md)
 * [Chapter Two: Processes](chapter_two_processes.md)
