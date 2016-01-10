@@ -6,3 +6,5 @@ In Oblivion, every unit is related to another unit by a connector. Connectors em
 
 Every series of Units and Connectors only concerns a single, linear process. This means that, units are linked together in one stream. You can only access another binding or unit if you start use the `|` terminator. The placing of Oblivion statements is very flexible, so you can make a single program into a single line, or many lines if you wish.
 
+All connectors have some indication of direction, or the order in which units are related to one another. This is very important, because all processes need to have a clear starting and ending point. For example, `(6) -> <+3>` uses
+
