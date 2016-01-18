@@ -10,3 +10,8 @@ All connectors have some indication of direction, or the order in which units ar
 
 Now, at first glance, the applicators discussed above seem identical to each other, one just offering a "cool" variation of code being read backwards. However, when both the left hand and right hand applicators are used together, we can produce some very interesting effects.
 
+```
+(8) -> # <- (7)
+~~~
+```
+
