@@ -12,6 +12,8 @@ Now, at first glance, the applicators discussed above seem identical to each oth
 
 ```
 (8) -> # <- (7)
-~~~
+~~~ 8
+~~~ 7
 ```
 
+The above process is equivalent to `(8) -> #: (7) -> #`. The applicator units can also be implemented with opposite directions 
