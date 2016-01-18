@@ -8,5 +8,5 @@ Every series of Units and Connectors only concerns a single, linear process. Thi
 
 All connectors have some indication of direction, or the order in which units are related to one another. This is very important, because all processes need to have a clear starting and ending point. For example, `(6) -> <+3>` uses the right applicator connector, or `RAC` for short. This takes the left unit and applies it to the right unit. In contrast, `(6) <- <+3>` takes the right hand unit and applies it to the left hand unit, also called `LAC` for short. In the example, `<+3>` becomes `<+9>`.
 
-Now, at first glance, the applicators discussed above seem identical to each other, one just offering a "cool" variation of code being read backwards. However, 
+Now, at first glance, the applicators discussed above seem identical to each other, one just offering a "cool" variation of code being read backwards. However, when both the left hand and right hand applicators are used together, we can produce some very interesting effects.
 
