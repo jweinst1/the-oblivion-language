@@ -23,3 +23,5 @@ The above process is equivalent to `(8) -> #: (7) -> #`. The applicator units ca
 ~~~ 8
 ~~~ 8
 ```
+
+The applicators, along with many of the other connectors, can be abstracted in an incredible number of ways to produce a highly custom feature of the Oblivion language.
