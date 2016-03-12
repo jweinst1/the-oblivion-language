@@ -13,5 +13,4 @@
 * [Chapter Four: Paths](chapter_four_paths.md)
 * [Chapter Five: Cycles](chapter_five_cycles.md)
 * [Chapter Six: Chains](chapter_six_chains.md)
-* [Chapter Seven: Cores](chapter_seven_cores.md)
 
