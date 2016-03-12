@@ -1,2 +1,0 @@
-# Chapter Four: Paths
-
