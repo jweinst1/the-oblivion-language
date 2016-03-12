@@ -8,5 +8,4 @@
        * [Object Opers](object_opers.md)
    * [Container Units](container_units.md)
    * [Name Units](name_units.md)
-* [Chapter Two: Connectors](chapter_two_connectors.md)
 
