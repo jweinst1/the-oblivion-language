@@ -7,5 +7,4 @@
        * [Arithmetic Opers](arithmetic_opers.md)
        * [Object Opers](object_opers.md)
    * [Container Units](container_units.md)
-   * [Name Units](name_units.md)
 
