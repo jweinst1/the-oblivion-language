@@ -1,7 +1,7 @@
 The Oblivion Language
 =======
 
-Oblivion is a programming language constructed around a paradigm of automata-based programming, utilizing the concepts and theory of machines for computability.
+Oblivion is a programming language constructed around a paradigm of automata-based programming. The language utilizes the concepts and theory of machines for computability.
 
 
 
