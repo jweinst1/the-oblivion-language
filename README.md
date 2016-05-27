@@ -10,8 +10,3 @@ Oblivion is a programming language constructed around a paradigm of automaton-ba
 The language's goal is to bring the concept of an automaton into the programmer's grasp, and achieve richer abstraction and computational abilities and methods than with conventional object-oriented programming. Many traditional constructs, such as `while` or `for` loops are replaced with more intricate, custom utilities. 
 
 
-
-For more information, see the [manual.](SUMMARY.md)
-
-For the Swift implementation of Oblivion, go [here](https://github.com/jweinst1/Oblivion).
-
