@@ -16,4 +16,6 @@ The expression `5 > 3` makes sense, as one number can be less than or greater th
 
 In mathematical logic, logical operations can be applied to one or more states. These operations, always evaluate to some other state, and can only be used on states themselves. The first such operator is the not operator. This appears in programming languages as `not`, such as in Python, or simply `!`, in JavaScript. We will refer to the not operator as `!`.
 
-The `!` operator, when applied to a state, changes the state to it's binary opposite or binary sister state. `!(true)` will change the state to `false`. Conversely, `!(false)` will change the 
+The `!` operator, when applied to a state, changes the state to it's binary opposite or binary sister state. `!(true)` will change the state to `false`. Conversely, `!(false)` will change the state to `true`. Not all states however, have a *specific* binary opposite. The `!` operator can also refer to a range of of other states. 
+
+The expression `!(null)`, refers to a state which is not `null`. It can be `true`, `false`, `None`, or a number of other states. However, the question might arise, can the not operator be applied to a value? It most certainly can be, yet this does not yield a value, yet a state. If we take the state `!(1)`, we can think of this as a state of not *being* 1. Any other occurrence can take place, just not `1`. 
