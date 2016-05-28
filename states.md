@@ -27,4 +27,6 @@ For example,
 $$
 5 == 5 && 5 > 5
 $$
-This expression will evaluate to false, as the right operand is false, a different state from the left operand, which refers to the true state. *Note: The Oblivion language enables such expressions to result in more than true or false states*
+This expression will evaluate to false, as the right operand is false, a different state from the left operand, which refers to the true state. *Note: The Oblivion language enables such expressions to result in more than true or false states*.
+
+In general, logical operations can take both values and states as operands, yet they will always result in a state, not a value. The *and* and the *or*
