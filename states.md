@@ -45,7 +45,7 @@ In general, logical operations can take both values and states as operands, yet 
 
 #####Non-logical Operators
 
-Another point of difference between values and states are other binary operators, such as arithmetic operators, `+`, `-`, `*`, and more. These listed often represent addition, subtraction, and multiplication. When we apply values, such as a number, to an artihmetic operator, the result is always a new number. Or as in programming, if one concatenates two strings,
+Another point of difference between values and states are other binary operators, such as arithmetic operators, `+`, `-`, `*`, and more. These listed often represent addition, subtraction, and multiplication. When we apply values, such as a number, to an arithmetic operator, the result is always a new number. Or as in programming, if one concatenates two strings,
 
 ```
  >>> "hello" + " " + "world!"
