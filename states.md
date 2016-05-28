@@ -45,4 +45,15 @@ In general, logical operations can take both values and states as operands, yet 
 
 #####Non-logical Operators
 
-Another point of difference between
+Another point of difference between values and states are other binary operators, such as arithmetic operators, `+`, `-`, `*`, and more. These listed often represent addition, subtraction, and multiplication. When we apply values, such as a number, to an artihmetic operator, the result is always a new number. Or as in programming, if one concatenates two strings,
+
+```
+ >>> "hello" + " " + "world!"
+ "hello world!"
+```
+
+You get a new string, different from all the operands, returned to you. 
+
+States do not have the ability to generate unique, new states from arithmetic operators. They can only really be expressed in different ways, yet they can never evaluate to other states from using these operators. 
+
+Now that the differences between states and values has been discussed, the mechanics of automaton, or state machines, can be explained.
