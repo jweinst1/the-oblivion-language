@@ -20,4 +20,11 @@ The `!` operator, when applied to a state, changes the state to it's binary oppo
 
 The expression `!(null)`, refers to a state which is not `null`. It can be `true`, `false`, `None`, or a number of other states. However, the question might arise, can the not operator be applied to a value? It most certainly can be, yet this does not yield a value, yet a state. If we take the state `!(1)`, we can think of this as a state of not *being* 1. Any other occurrence can take place, just not `1`. 
 
-Next is the *and* operator, usually denoted via a `&&` in most languages, or in mathematics as $$^$$. The *and* operator is applied to one or more state operands, in which
+Next is the *and* operator, usually denoted via a `&&` in most languages, or in mathematics as $$^$$. The *and* operator is applied to one or more state operands, to determine if both operands have, or evaluate to the same state. The *and* operator will evaluate to the `true` state if every single one of the operands are the same state, or false if any element is a different state.
+
+For example,
+
+$$
+5 == 5 && 5 > 5
+$$
+This expression will evaluate to false, as the right operand is false, a different state from the left operand, which refers to the true state. *Note: The Oblivion language enables such expressions to result in more than true or false states*
