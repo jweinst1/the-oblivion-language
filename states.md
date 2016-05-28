@@ -29,6 +29,6 @@ $$
 $$
 This expression will evaluate to false, as the right operand is false, a different state from the left operand, which refers to the true state. *Note: The Oblivion language enables such expressions to result in more than true or false states*.
 
-The *or* operator is similar to the *and* operator, denoted by a `||` symbol in most languages. It evaluates two or more operands, determining if every state evaluates to the `true` state.
+The *or* operator is similar to the *and* operator, denoted by a `||` symbol in most languages. It evaluates two or more operands, determining if any of the states evaluates to the `true` state. The operator can be chained, such that from left to right, every state is determined if it corresponds to being true.
 
 In general, logical operations can take both values and states as operands, yet they will always result in a state, not a value. 
