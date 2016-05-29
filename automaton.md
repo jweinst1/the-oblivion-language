@@ -7,3 +7,7 @@ Now, how does the car change it's state of motion? It receives input from the dr
 ####The Light Switch
 
 The simplest machine, in abstract terms, is a light switch. A light switch, one that can be turned on and off. When the switch is pointing up, the light is on. When the switch is pointing down, the light is off. The light switch's input instructions, `up` or `down`, determine it's state, `on` or `off`. We can construct a state diagram, mapping out the states and transitions of a simple light switch.
+
+![](Untitled Diagram.png)
+
+The arrows pointing back toward their own box indicate an *unaccepted* input. Flipping a switch up when it is already pointing up and on won't do anything. This works the same for flipping the switch down when the switch is already pointing down.
