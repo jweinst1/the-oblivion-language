@@ -21,4 +21,4 @@ switch = (
 )
 ```
 
-Mathematically, automaton are defined as moving from one state to another via a *transition function*. The Oblivion language, however, does not use functions or function objects. 
+Mathematically, automaton are defined as moving from one state to another via a *transition function*. The Oblivion language, however, does not use functions or function objects. This portion of automaton theory will be left out, until it can be explained in terms of Oblivion's machinery.
