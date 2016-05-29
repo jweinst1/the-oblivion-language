@@ -11,3 +11,14 @@ The simplest machine, in abstract terms, is a light switch. A light switch, one 
 ![](Untitled Diagram.png)
 
 The arrows pointing back toward their own box indicate an *unaccepted* input. Flipping a switch up when it is already pointing up and on won't do anything. This works the same for flipping the switch down when the switch is already pointing down.
+
+A light switch, therefore, has a set of two states, on and off, with two possible inputs, up and down. Here is a pseudo-code representation of this machine.
+
+```
+switch = (
+    states:{on, off}
+    inputs:{up, down}
+)
+```
+
+Mathematically, automaton are defined as moving from one state to another via a *transition function*. The Oblivion language, however, does not use functions or function objects. 
