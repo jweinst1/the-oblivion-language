@@ -1,3 +1,3 @@
 # Finite State Automaton
 
-The term *finite* is a little ambiguous when used in the context of computer programming. Everything is essentially, in
+The term *finite* is a little ambiguous when used in the context of computer programming. Everything is essentially, finite in a program. You have a finite amount of memory, for example. However, in the case of automaton, we can take the term "finite" to mean reasonably countable. An `FSA`, for short, has some finite amount of states, in which it can transition from one to another, via an input.
