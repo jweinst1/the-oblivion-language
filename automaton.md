@@ -22,3 +22,5 @@ switch = (
 ```
 
 Mathematically, automaton are defined as moving from one state to another via a *transition function*. The Oblivion language, however, does not use functions or function objects. This portion of automaton theory will be left out, until it can be explained in terms of Oblivion's machinery.
+
+Now in classical automaton theory, and formal language theory, only several types of state machines exist. Each one will be demonstrated here, yet keep in mind the Oblivion language implements many richer, more elaborate machines than these.
