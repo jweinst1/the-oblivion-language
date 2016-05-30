@@ -19,3 +19,12 @@ Additionally, the batter, once reaching home plate, scores a point, and cannot c
 
 ![](BaseballDiamond02.png)
 
+The `run` label, symbolizes the input of running from one base to another. In baseball, there are more ways to get from one base to another, such as a batter being walked, but `run` will be treated as going from one base to another after the ball has been hit.
+
+####Outs
+
+As a batter runs around the bases, they may be tagged out at any time, if the basemen can manage to do so. A possible transition is needed to show what happens after a batter is tagged out. When one is out, be it through tagging or another rule, they must leave the diamond and return to the batters box. There is no way a player can return to a position on a base after being out. 
+
+This means our baseball `FSA` has two final states, `Score` and `out`. A batter can be tagged out at every base, so every base has a possible transition to `out`. Lets look at our updated diagram.
+
+![](BaseballDiamond03.png)
