@@ -27,7 +27,11 @@ Now in classical automaton theory, and formal language theory, only several type
 
 ####Formal Language Theory
 
-Traditionally, automata theory was formulated around the purpose of constructing and reading languages. The mathematical models of finite state machines are closely tied to the linguistic models of grammars, production rules, and language theory. Usually, when one thinks of a machine, or automaton, they think about some *task* being automated or performed. 
+Traditionally, automata theory was formulated around the purpose of constructing and reading languages. The mathematical models of finite state machines are closely tied to the linguistic models of grammars, production rules, and language theory. Usually, when one thinks of a machine, or automaton, they think about some *task* being automated or performed. Automaton were originally conceived  to receive textual input, and in doing so, either change it's state according to that input. 
+
+Every classical automaton has some initial state, subsequent states, and it's *final* state. The final state is only entered once the automaton has finished recognizing all the symbols it's needed to. Here is an example.
+
+
 
 
 #####Alphabets
