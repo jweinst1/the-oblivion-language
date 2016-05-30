@@ -31,9 +31,10 @@ Traditionally, automata theory was formulated around the purpose of constructing
 
 Every classical automaton has some initial state, subsequent states, and it's *final* state. The final state is only entered once the automaton has finished recognizing all the symbols it's needed to. Here is an example.
 
+![](FSA001.png)
 
 
-
+This transition diagram of an automaton, or specifically a finite state automaton, shows the progressive recognition of the word `MIT`. At every stage, starting
 #####Alphabets
 
 An alphabet, is some finite set of *symbols*. These symbols, can be concatenated into words, usually called strings in most languages. These symbols, unique from one another, can be combined into strings through some set of rules. The set of all possible strings from some alphabet is called a *formal language*, or language for short. The rules from which strings are constructed from an alphabet is called a *grammar*.
