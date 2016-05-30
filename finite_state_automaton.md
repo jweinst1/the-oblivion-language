@@ -12,3 +12,5 @@ To demonstrate this concept, the model of a baseball field, and the process in w
 ![](BaseballDiamond.png)
 
 In our model, we want to model the possible states and transition of states that follow the pattern in which the batter runs across the bases. The batter must always start at home base, so that will be the initial state of the automaton.
+
+Now, what is the next state? At first site, it seems any of the bases could be the next state, as a batter can run more than one base after hitting the ball. Depending on how far the ball is hit, a batter can score a single, double, or even a triple. However, even in the case of a double or triple, the batter *must* touch every base on his trip around the bases.
