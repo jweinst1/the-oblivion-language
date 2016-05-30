@@ -34,7 +34,8 @@ Every classical automaton has some initial state, subsequent states, and it's *f
 ![](FSA001.png)
 
 
-This transition diagram of an automaton, or specifically a finite state automaton, shows the progressive recognition of the word `MIT`. At every stage, starting
+This transition diagram of an automaton, or specifically a finite state automaton, shows the progressive recognition of the word `MIT`. At every stage, starting at the initial stage, the machine recognizes one, and only one letter. Once it detects that letter has been seen, it transitions to it's next state. At the final state, it is no longer checking for letters, or awaiting a transition.
+
 #####Alphabets
 
 An alphabet, is some finite set of *symbols*. These symbols, can be concatenated into words, usually called strings in most languages. These symbols, unique from one another, can be combined into strings through some set of rules. The set of all possible strings from some alphabet is called a *formal language*, or language for short. The rules from which strings are constructed from an alphabet is called a *grammar*.
