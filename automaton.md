@@ -25,7 +25,23 @@ Mathematically, automaton are defined as moving from one state to another via a 
 
 Now in classical automaton theory, and formal language theory, only several types of state machines exist. Each one will be demonstrated here, yet keep in mind the Oblivion language implements many richer, more elaborate machines than these.
 
-####Alphabets
+####Formal Language Theory
+
+Traditionally, automata theory was formulated around the purpose of constructing and reading languages. The mathematical models of finite state machines are closely tied to the linguistic models of grammars, production rules, and language theory. Usually, when one thinks of a machine, or automaton, they think about some *task* being automated or performed. 
+
+
+#####Alphabets
 
 An alphabet, is some finite set of *symbols*. These symbols, can be concatenated into words, usually called strings in most languages. These symbols, unique from one another, can be combined into strings through some set of rules. The set of all possible strings from some alphabet is called a *formal language*, or language for short. The rules from which strings are constructed from an alphabet is called a *grammar*.
 
+Examples of alphabets:
+
+```
+The Binary Alphabet
+A = {0, 1}
+
+The Digit Alphabet
+A = {-, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+```
+
+As long as a non-empty set of finite symbols can be represented, those symbols can be modeled as an alphabet.
