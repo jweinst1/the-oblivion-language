@@ -6,3 +6,9 @@ An important distinction in an FSA is whether the automaton is *deterministic* o
 
 To demonstrate this concept, the model of a baseball field, and the process in which a batter runs across the bases, will be utilized. Let's take a baseball diamond. It has four bases, home, first, second, and third base. First, let's look at this from the perspective of the batter, whom starts the at-bat from home base.
 
+###Baseball Diamond
+
+
+![](BaseballDiamond.png)
+
+In our model, we want to model the possible states and transition of states that follow the pattern in which the batter runs across the bases. The batter must always start at home base, so that will be the initial state of the automaton.
