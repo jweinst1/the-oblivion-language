@@ -27,4 +27,5 @@ Now in classical automaton theory, and formal language theory, only several type
 
 ####Alphabets
 
-An alphabet, is some finite set of *symbols*. These symbols, can be concatenated into words, usually called strings in most languages.
+An alphabet, is some finite set of *symbols*. These symbols, can be concatenated into words, usually called strings in most languages. These symbols, unique from one another, can be combined into strings through some set of rules. The set of all possible strings from some alphabet is called a *formal language*, or language for short. The rules from which strings are constructed from an alphabet is called a *grammar*.
+
