@@ -28,3 +28,5 @@ As a batter runs around the bases, they may be tagged out at any time, if the ba
 This means our baseball `FSA` has two final states, `Score` and `out`. A batter can be tagged out at every base, so every base has a possible transition to `out`. Lets look at our updated diagram.
 
 ![](BaseballDiamond03.png)
+
+h
