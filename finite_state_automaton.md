@@ -29,4 +29,10 @@ This means our baseball `FSA` has two final states, `Score` and `out`. A batter 
 
 ![](BaseballDiamond03.png)
 
-h
+####Home-runs, Walks
+
+In baseball, if a player hits the ball so far that it lands past the outfield wall, but does not go into the foul zones, the player is allowed to run across all the bases to home plate. This allows the batter to score a run without the possibility of being tagged out at any of the bases. Thus, we should add a special, direct state transition for the batter to the score final state, via the input of a home run.
+
+A batter is permitted to safely transition to first base if the pitcher throws 4 *balls* in the at-bat. In this situation, the batter does not need to successfully hit the ball into live play, and is not truly running to first base, so we will add an additional input for that transition.
+
+![](BaseballDiamond04.png)
