@@ -1,2 +1,3 @@
 # Chapter 2: The Fundamentals of Oblivion
 
+Oblivion is a language constructed from features, structures, and tools that are entirely different than most any other programming language. The Oblivion programming language does not use functions or functional-based programming constructs. The language also does not use classes, or object-oriented programming features at all.
