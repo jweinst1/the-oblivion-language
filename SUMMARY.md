@@ -5,5 +5,6 @@
    * [States](states.md)
    * [Automaton](automaton.md)
    * [Finite State Automaton](finite_state_automaton.md)
+   * Nondeterministic Finite Automaton
 * [Chapter 2: The Fundamentals of Oblivion](chapter_2_the_fundamentals_of_oblivion.md)
 
