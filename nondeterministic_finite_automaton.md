@@ -1,2 +1,4 @@
-# Nondeterministic Finite Automaton
+# Non-deterministic Finite Automaton
+
+
 
